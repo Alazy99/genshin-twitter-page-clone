@@ -1,0 +1,556 @@
+/**************************/
+/* LEFT LAYOUT SECTION */
+/**************************/
+
+.list-item {
+	font-size: 1.8rem;
+	list-style: none;
+	display: flex;
+	margin-bottom: 1.2rem;
+	margin-top: 1.2rem;
+	padding: 1rem;
+	gap: 1.8rem;
+	align-items: center;
+	max-width: fit-content;
+}
+
+.list-item:hover,
+.list-item:link {
+	background-color: #14171a;
+	border-radius: 50px;
+	cursor: pointer;
+	color: #fff;
+}
+
+.logo-icon {
+	height: 3rem;
+	width: 3rem;
+	color: white;
+}
+
+.twt-btn,
+.twt-btn:link,
+.twt-btn:visited {
+	display: inline-block;
+	font-size: 2rem;
+	text-decoration: none;
+	padding: 1.6rem 10rem;
+	border-radius: 50px;
+
+	border: none;
+	cursor: pointer;
+	/* 
+	transition: background-color 0.3s; */
+
+	transition: all 0.3s;
+}
+
+.twt--full:link,
+.twt--full:visited {
+	background-color: #1da1f2;
+	color: #fff;
+}
+
+.twt--full:hover,
+.twt--full:active {
+	background-color: #cf711f;
+}
+
+/**************************/
+/* MIDDLE LAYOUT SECTION */
+/**************************/
+.middle-layout {
+	border-left: 0.1px solid #657786;
+	border-right: 0.1px solid #657786;
+	border-bottom: 0.1px solid #657786;
+}
+
+.flex-layout {
+	display: flex;
+	gap: 1.8rem;
+	margin-bottom: 1rem;
+}
+
+.back-icon {
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	padding: 1rem 1rem;
+}
+
+.genshin-title {
+	font-size: 1.8rem;
+	color: #fff;
+	letter-spacing: 1.6;
+	margin-top: 1rem;
+	cursor: pointer;
+}
+
+.genshin-twt {
+	font-size: 1.2rem;
+	color: #657786;
+	margin-top: 0.5rem;
+}
+
+.verified {
+	background-color: #fff;
+	color: #14171a;
+	border-radius: 50%;
+	margin-left: 0.2rem;
+	align-self: center;
+	height: 1.6rem;
+	width: 1.6rem;
+}
+
+.genshin-img {
+	width: 100%;
+	cursor: pointer;
+}
+
+.genshin-img-layout {
+	position: relative;
+}
+
+.paimon-img {
+	border-radius: 50%;
+	position: absolute;
+	height: 15rem;
+	width: 15rem;
+	bottom: 0;
+	left: -10%;
+	transform: translate(50%, 50%);
+	margin-bottom: 3rem;
+	border: 5px solid #14171a;
+}
+
+.profile-btns {
+	display: flex;
+	justify-content: flex-end;
+	gap: 1.2rem;
+	align-items: center;
+	margin-top: 1rem;
+	margin-right: 1rem;
+}
+
+.btn {
+	border: 1px solid #fff;
+	border-radius: 20px;
+	padding: 1rem;
+	font-size: 1.5rem;
+	letter-spacing: 0.01rem;
+}
+
+.btn-logos {
+	padding: 0.5rem;
+}
+
+.profile-logo {
+	height: 2rem;
+	width: 2rem;
+}
+
+.genshin-profile-description {
+	margin: 0rem 2.2rem;
+}
+
+.genshin-title-txt {
+	color: #fff;
+	font-size: 2rem;
+	margin-top: 6rem;
+}
+
+.genshin-light-title {
+	font-size: 1.4rem;
+	margin-top: 0.5rem;
+}
+
+.genshin-light-tile span {
+	align-self: center;
+}
+
+.genshin-description {
+	color: #fff;
+	font-size: 1.4rem;
+	margin-top: 1.6rem;
+	line-height: 1.4;
+}
+
+.genshin-links {
+	display: flex;
+	gap: 2rem;
+	margin-top: 1.2rem;
+	align-items: center;
+}
+.hoyoverse-link,
+.hoyoverse-link:link,
+.hoyoverse-link:visited {
+	font-size: 1.6rem;
+	color: #1da1f2;
+	display: flex;
+
+	align-items: center;
+}
+
+.hoyoverse-link:hover,
+.hoyoverse-link:active {
+	text-decoration: underline;
+}
+
+.link-icon {
+	height: 2rem;
+	width: 2rem;
+	color: #657786;
+	margin-right: 0.5rem;
+}
+
+.genshin-joined-date {
+	display: flex;
+	align-items: center;
+}
+
+.calender {
+	margin-right: 0.5rem;
+	height: 2.2rem;
+	width: 2.2rem;
+}
+
+.genshin-date-txt {
+	font-size: 1.5rem;
+}
+
+.genshin-following:link,
+.genshin-following:visited {
+	font-size: 1.4rem;
+}
+
+.genshin-following:hover,
+.genshin-following:active {
+	text-decoration: underline;
+	color: #fff;
+}
+
+.genshin-number-follow {
+	color: #fff;
+}
+
+.follow-txt {
+	color: #657786;
+}
+
+.genshin-followed-by {
+	display: flex;
+	margin-top: 1.2rem;
+}
+
+.genshin-follow-imgs {
+	display: flex;
+	align-items: center;
+}
+
+.genshin-follow-imgs img {
+	height: 1.9rem;
+	width: 1.9rem;
+	border-radius: 50%;
+	margin-right: -1rem;
+	border: 1px solid #14171a;
+}
+
+.genshin-follow-imgs img:first-child {
+	z-index: 1;
+}
+
+.genshin-follow-imgs img:nth-child(3) {
+	z-index: -1;
+}
+
+.genshin-follow-imgs:hover,
+.genshin-follow-imgs:active {
+	text-decoration: underline;
+	color: #657786;
+}
+
+.genshin-you-follow-txt {
+	font-size: 1.2rem;
+	margin-left: 1.8rem;
+	color: #657786;
+}
+
+.twt-link-box {
+	margin-top: 1.5rem;
+	font-size: 1.4rem;
+	border-bottom: 0.1px solid #657786;
+}
+.twt-box {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	position: relative;
+}
+
+.twt-links:link {
+	width: 100%;
+	padding: 1.6rem 1.6rem;
+	text-align: center;
+	color: #657786;
+}
+
+.twt-links:first-child {
+	color: #fff;
+}
+
+.blue-line {
+	height: 4px;
+	width: 50px;
+	background-color: #1da1f2;
+	position: absolute;
+	left: 8.6%;
+	bottom: 0;
+	border-radius: 5px;
+}
+
+.twt-links:hover,
+.twt-links:active {
+	background-color: #14171a;
+}
+
+/********************************/
+/* MIDDLE BOTTOM LAYOUT SECTION */
+/********************************/
+
+.middle-bottom-twt {
+	margin-left: 2rem;
+	margin-right: 3rem;
+}
+
+.pinned-twt {
+	display: flex;
+	gap: 1.2rem;
+	align-items: center;
+	font-size: 1.2rem;
+	margin-left: 4rem;
+	margin-top: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+/* TWEET BOX */
+
+.genshin-twt-box {
+	display: flex;
+}
+
+.smaller-paimon-img {
+	border-radius: 50%;
+	height: 5rem;
+	width: 5rem;
+}
+
+.genshin-twt-column {
+	display: flex;
+	flex-direction: column;
+	margin-left: 2rem;
+}
+
+.genshin-tweeting {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+}
+
+.genshin-twt-description {
+	color: #fff;
+	font-size: 1.4rem;
+	margin-top: 0.5rem;
+	line-height: 1.6;
+	margin-bottom: 1.6rem;
+}
+
+.genshin-hastags {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.genshin-hashtag,
+.genshin-hashtag:link,
+.genshin-hashtag:visited {
+	color: #1da1f2;
+	font-size: 1.4rem;
+}
+
+.genshin-paimon-img {
+	margin-top: 1rem;
+	width: 100%;
+	cursor: pointer;
+	border-radius: 20px;
+}
+
+/**************************/
+/* RIGHT LAYOUT SECTION */
+/**************************/
+
+.right-layout {
+	display: flex;
+	flex-direction: column;
+	margin-left: 3rem;
+	margin-top: 1rem;
+	gap: 1.6rem;
+}
+.search-bar {
+	display: flex;
+	position: relative;
+}
+
+.search-icon {
+	height: 2rem;
+	width: 2rem;
+	position: absolute;
+	transform: translate(50%, 50%);
+	top: 3px;
+	left: 1px;
+}
+
+.search-bar-textbox {
+	border: none;
+	border-radius: 50px;
+	padding: 1.6rem;
+	padding-left: 4rem;
+	width: 100%;
+	background-color: #14171a;
+	color: #fff;
+}
+
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 0.2rem;
+	border-radius: 20px;
+}
+
+.gallery-item {
+	overflow: hidden;
+}
+
+.gallery-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.gallery-item:first-child {
+	border-top-left-radius: 20px;
+}
+
+.gallery-item:nth-child(3) {
+	border-top-right-radius: 20px;
+}
+
+.gallery-item:nth-child(4) {
+	border-bottom-left-radius: 20px;
+}
+
+.gallery-item:last-child {
+	border-bottom-right-radius: 20px;
+}
+
+.might-like-box {
+	background-color: #14171a;
+	border-radius: 20px;
+}
+
+.might-like-txt {
+	font-size: 1.8rem;
+	color: #fff;
+	padding: 1.6rem;
+}
+
+.person-profile {
+	display: flex;
+	align-items: center;
+	position: relative;
+	padding: 1rem;
+}
+
+.person-profile:hover {
+	background-color: #657786;
+	cursor: pointer;
+}
+
+.move-img {
+	margin-left: 1rem;
+}
+
+.honkai-names {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	font-size: 1.2rem;
+	margin-left: 1rem;
+}
+
+.honkai-light-title {
+	color: #657786;
+}
+
+.follow-btn {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	padding: 1rem 1.6rem;
+	background-color: #fff;
+	color: #14171a;
+	border-radius: 50px;
+	font-size: 1.2rem;
+	letter-spacing: 0.1rem;
+	margin-right: 2rem;
+}
+
+.follow-btn:hover,
+.follow-btn:active {
+	background-color: #ffd;
+}
+
+.txt-small {
+	font-size: 1.4rem;
+	display: block;
+	color: #1da1f2;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.txt-small:hover,
+.twt-small:active {
+	background-color: #657786;
+}
+
+.trend-txt:link {
+	margin-right: 10rem;
+	line-height: 1.6;
+	font-size: 1.4rem;
+}
+
+.house-img-box {
+	background-image: url('../img/house-repres.jpg');
+	width: 20%;
+	height: 80%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-right: 1rem;
+	margin-top: 0.5rem;
+	border-radius: 20px;
+	background-position: center;
+	background-size: cover;
+}
+
+.war-img-box {
+	background-image: url('../img/war_in_ukraine.jpeg');
+	width: 20%;
+	height: 80%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-right: 1rem;
+	margin-top: 0.5rem;
+	border-radius: 20px;
+	background-position: center;
+	background-size: cover;
+}

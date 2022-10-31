@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Twitter</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/general.css" />
+		<link rel="stylesheet" href="css/queries.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+		/>
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+		></script>
+	</head>
+	<body>
+		<main class="container grid grid--3-cols">
+			<section class="left-layout">
+				<header class="left-header">
+					<a href="#">
+						<ion-icon class="logo-icon twitter" name="logo-twitter"></ion-icon
+					></a>
+					<nav class="left-nav sticky">
+						<ul class="left-nav-list">
+							<li class="list-item">
+								<a href="#"
+									><ion-icon
+										class="logo-icon"
+										name="home-outline"
+									></ion-icon></a
+								><a class="list-text" href="#"><span>Home</span></a>
+							</li>
+							<li class="list-item mobile-gone">
+								<i class="fa-solid fa-hashtag logo-icon"></i>
+								<a href="#">Explore</a>
+							</li>
+							<li class="list-item">
+								<ion-icon
+									class="logo-icon"
+									name="notifications-outline"
+								></ion-icon>
+								<a href="#"><span>Notifications</span></a>
+							</li>
+							<li class="list-item">
+								<ion-icon class="logo-icon" name="mail-outline"></ion-icon>
+								<a href="#"><span>Messages</span></a>
+							</li>
+							<li class="list-item mobile-gone">
+								<ion-icon class="logo-icon" name="bookmark-outline"></ion-icon>
+								<a href="#">Bookmarks</a>
+							</li>
+							<li class="list-item mobile-gone">
+								<ion-icon class="logo-icon" name="list-outline"></ion-icon>
+								<a href="#">Lists</a>
+							</li>
+							<li class="list-item">
+								<ion-icon class="logo-icon" name="person-outline"></ion-icon>
+								<a href="#"><span>Profile</span></a>
+							</li>
+							<li class="list-item mobile-gone">
+								<ion-icon
+									class="logo-icon"
+									name="ellipsis-horizontal-circle-outline"
+								></ion-icon>
+								<a href="#">More</a>
+							</li>
+						</ul>
+						<a class="twt-btn twt--full" href="#"><span>Tweet</span></a>
+					</nav>
+				</header>
+			</section>
+
+			<section class="middle-layout">
+				<header class="flex-layout">
+					<a href="#"
+						><ion-icon class="back-icon" name="arrow-back-outline"></ion-icon
+					></a>
+					<h1 class="genshin-title">
+						Genshin Impact<ion-icon
+							class="verified"
+							name="checkmark-outline"
+						></ion-icon>
+						<p class="genshin-twt">1,821 Tweets</p>
+					</h1>
+				</header>
+				<section class="genshin-profile">
+					<a href="Genshin Impact 2.7 Yelan">
+						<img
+							src="img/genshin.jpeg"
+							class="genshin-img"
+							alt="Genshin Impact 2.7 Yelan"
+						/>
+					</a>
+				</section>
+				<section class="genshin-img-layout">
+					<div class="paimon-layout">
+						<a href="paimon">
+							<img
+								src="img/paimon.jpg"
+								alt="Hoyoverse Paimon logo"
+								class="paimon-img"
+							/>
+						</a>
+					</div>
+					<div class="profile-btns">
+						<a class="btn btn-logos" href="#">
+							<ion-icon
+								class="profile-logo"
+								name="ellipsis-horizontal-outline"
+							></ion-icon>
+						</a>
+						<a class="btn btn-logos" href="#">
+							<ion-icon
+								class="profile-logo"
+								name="notifications-outline"
+							></ion-icon>
+						</a>
+						<a class="btn btn-follow" href="#">Following</a>
+					</div>
+				</section>
+				<div class="genshin-profile-description">
+					<h1 class="genshin-title-txt">
+						Genshin Impact
+						<ion-icon class="verified" name="checkmark-outline"></ion-icon>
+					</h1>
+					<h2 class="genshin-light-title">@GenshinImpact</h2>
+					<p class="genshin-description">
+						In the world of Teyvat &mdash; where all kinds of elemental powers
+						constantly surge &mdash; epic adventures await, fearless Travelers!
+					</p>
+					<div class="genshin-links">
+						<a href="Hoyoverse" class="hoyoverse-link"
+							><ion-icon class="link-icon" name="link-outline"></ion-icon
+							>hoyoverse.com</a
+						>
+						<p class="genshin-joined-date">
+							<ion-icon class="calender" name="calendar-outline"></ion-icon
+							><span class="genshin-date-txt">Joined December 2018</span>
+						</p>
+					</div>
+					<div class="genshin-links">
+						<a class="genshin-following" href="Following"
+							><span class="genshin-number-follow">9</span>
+							<span class="follow-txt">Following</span></a
+						>
+						<a class="genshin-following" href="Followers"
+							><span class="genshin-number-follow">3.7M</span>
+							<span class="follow-txt">Followers</span></a
+						>
+					</div>
+					<div class="genshin-followed-by">
+						<a href="Followers you know" class="genshin-follow-imgs">
+							<img src="img/zzz.jpg" alt="Zeneless Zone Zero game" />
+							<img src="img/honkai_star_rail.jpg" alt="Honkai Star Rail" />
+							<img src="img/honkai3rd.jpg" />
+							<p class="genshin-you-follow-txt">
+								Followed by Zenless Zone Zero, Honkai Star Rail, and 9 others
+								you folow
+							</p>
+						</a>
+					</div>
+				</div>
+				<div class="twt-link-box">
+					<div class="twt-box">
+						<a href="Tweets" class="twt-links"
+							>Tweets
+							<div class="blue-line"></div>
+						</a>
+						<a href="Tweets & Replies" class="twt-links">Tweets & Replies </a>
+						<a href="Media" class="twt-links">Media</a>
+						<a href="Likes" class="twt-links">Likes</a>
+					</div>
+				</div>
+				<section class="middle-bottom-twt">
+					<div class="pinned-twt">
+						<i class="fa-solid fa-thumbtack"></i>Pinned Tweet
+					</div>
+					<div class="genshin-twt-box">
+						<div class="paimon-profile-pic">
+							<a href="paimon">
+								<img
+									src="img/paimon.jpg"
+									alt="Hoyoverse Paimon logo"
+									class="smaller-paimon-img"
+								/>
+							</a>
+						</div>
+						<div class="genshin-twt-column">
+							<div class="genshin-tweeting">
+								<h1 class="genshin-title">
+									Genshin Impact<ion-icon
+										class="verified"
+										name="checkmark-outline"
+									></ion-icon>
+								</h1>
+								<h2 class="genshin-light-title">
+									@GenshinImpact &middot; Jun 1
+								</h2>
+							</div>
+							<p class="genshin-twt-description">
+								Wow, there's so many Slime Balloons! Did you do this all by
+								yourself? No wonder you were being so quiet and yesterday,
+								avoiding Paimon. It was to prepare all this. Thank you! For this
+								year, Paimon's birthday wish is to always be at your side!
+							</p>
+							<div class="genshin-hashtags">
+								<a href="#" class="genshin-hashtag">#GenshinImpact</a>
+								<a href="#" class="genshin-hashtag">#Paimon</a>
+							</div>
+							<img
+								src="img/paimon_birthday.jpeg"
+								class="genshin-paimon-img"
+								alt="Paimon's birthday picture"
+							/>
+						</div>
+					</div>
+				</section>
+				<section class="middle-bottom-twt">
+					<div class="pinned-twt">
+						<i class="fa-solid fa-thumbtack"></i>Pinned Tweet
+					</div>
+					<div class="genshin-twt-box">
+						<div class="paimon-profile-pic">
+							<a href="paimon">
+								<img
+									src="img/paimon.jpg"
+									alt="Hoyoverse Paimon logo"
+									class="smaller-paimon-img"
+								/>
+							</a>
+						</div>
+						<div class="genshin-twt-column">
+							<div class="genshin-tweeting">
+								<h1 class="genshin-title">
+									Genshin Impact<ion-icon
+										class="verified"
+										name="checkmark-outline"
+									></ion-icon>
+								</h1>
+								<h2 class="genshin-light-title">
+									@GenshinImpact &middot; Jun 1
+								</h2>
+							</div>
+							<p class="genshin-twt-description">
+								Wow, there's so many Slime Balloons! Did you do this all by
+								yourself? No wonder you were being so quiet and yesterday,
+								avoiding Paimon. It was to prepare all this. Thank you! For this
+								year, Paimon's birthday wish is to always be at your side!
+							</p>
+							<div class="genshin-hashtags">
+								<a href="#" class="genshin-hashtag">#GenshinImpact</a>
+								<a href="#" class="genshin-hashtag">#Paimon</a>
+							</div>
+							<img
+								src="img/paimon_birthday.jpeg"
+								class="genshin-paimon-img"
+								alt="Paimon's birthday picture"
+							/>
+						</div>
+					</div>
+				</section>
+			</section>
+			<section class="right-layout">
+				<div class="search-bar">
+					<ion-icon class="search-icon" name="search-outline"></ion-icon>
+					<input
+						type="search"
+						class="search-bar-textbox"
+						placeholder="Search Twitter"
+					/>
+				</div>
+				<div class="gallery">
+					<figure class="gallery-item">
+						<a href="#">
+							<img src="img/genshin-gallery_1.jpeg" alt="Liyue friends" />
+						</a>
+					</figure>
+					<figure class="gallery-item">
+						<a href="#">
+							<img src="img/genshin-gallery_2.jpeg" alt="Liyue friends" />
+						</a>
+					</figure>
+					<figure class="gallery-item">
+						<a href="#">
+							<img src="img/paimon_birthday.jpeg" alt="Liyue friends" />
+						</a>
+					</figure>
+					<figure class="gallery-item">
+						<a href="#">
+							<img src="img/genshin-gallery_4.jpeg" alt="Liyue friends" />
+						</a>
+					</figure>
+					<figure class="gallery-item">
+						<a href="#">
+							<img src="img/genshin-gallery_5.jpeg" alt="Liyue friends" />
+						</a>
+					</figure>
+					<figure class="gallery-item">
+						<a href="#">
+							<img src="img/genshin-gallery_6.jpeg" alt="Liyue friends" />
+						</a>
+					</figure>
+				</div>
+				<div class="might-like-box">
+					<h1 class="might-like-txt">You might like</h1>
+					<div class="person-profile">
+						<a href="#">
+							<img
+								src="/img/honkai_star_rail.jpg"
+								class="smaller-paimon-img move-img"
+							/>
+						</a>
+						<div class="honkai-names">
+							<a href="#"
+								>Honkai Star Rail
+								<a href="#" class="honkai-light-title">@HonkaiStarRail</a>
+							</a>
+						</div>
+						<a href="Follow" class="follow-btn">Follow</a>
+					</div>
+					<div class="person-profile">
+						<a href="#">
+							<img
+								src="/img/honkai3rd.jpg"
+								class="smaller-paimon-img move-img"
+							/>
+						</a>
+						<div class="honkai-names">
+							<a href="#"
+								>Honkai Impact 3rd
+								<a href="#" class="honkai-light-title">@HonkaiImpact3rd</a>
+							</a>
+						</div>
+						<a href="Follow" class="follow-btn">Follow</a>
+					</div>
+					<div class="person-profile">
+						<a href="#">
+							<img src="/img/zzz.jpg" class="smaller-paimon-img move-img" />
+						</a>
+						<div class="honkai-names">
+							<a href="#"
+								>Zenless Zone Zero
+								<a href="#" class="honkai-light-title">@ZenelessZoneZero</a>
+							</a>
+						</div>
+						<a href="Follow" class="follow-btn">Follow</a>
+					</div>
+					<a href="#" class="might-like-txt txt-small">Show More</a>
+				</div>
+				<div class="might-like-box">
+					<h1 class="might-like-txt">What's happening</h1>
+					<div class="person-profile">
+						<div class="honkai-names">
+							<p>Politics &middot; Last night</p>
+							<a href="#" class="trend-txt"
+								>House passes sweeping gun reform legislation
+								<a href="#" class="honkai-light-title"></a>
+							</a>
+						</div>
+						<div
+							class="house-img-box"
+							role="img"
+							aria-label="Picture of the house of representatives"
+						></div>
+					</div>
+					<div class="person-profile">
+						<div class="honkai-names">
+							<p>Gaming &middot; Trending</p>
+							<a href="#"
+								>#GenshinImpact
+								<a href="#" class="honkai-light-title">30.6K Tweets</a>
+							</a>
+						</div>
+						<a href="Follow" class="follow-btn">Follow</a>
+					</div>
+					<div class="person-profile">
+						<div class="honkai-names">
+							<p>Sports &middot; Trending</p>
+							<a href="#"
+								>The Fiend
+								<a href="#" class="honkai-light-title">2,313 Tweets</a>
+							</a>
+						</div>
+						<a href="Follow" class="follow-btn">Follow</a>
+					</div>
+					<div class="person-profile">
+						<div class="honkai-names">
+							<p>War in Ukraine &middot; LIVE</p>
+							<a href="#" class="trend-txt"
+								>Latest updates on the war in Ukraine
+								<a href="#" class="honkai-light-title"></a>
+							</a>
+						</div>
+						<div
+							class="war-img-box"
+							role="img"
+							aria-label="Picture of the house of representatives"
+						></div>
+					</div>
+					<a href="#" class="might-like-txt txt-small">Show More</a>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
